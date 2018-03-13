@@ -1,0 +1,58 @@
+<DOCTYPE! html>
+<html lang="en-US">
+<head>
+	<title>Business Test 2.0</title>
+	<meta charset=UTF-8>
+	<meta name="description" content="Joel's Business">
+	<meta name="author" content="Joel Cribby" />
+	<meta name="keywords" content="HTML, CSS, XML, JavaScript" />
+	<meta http-equiv="refresh" content="10" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="businessStyles.css" />
+</head>
+
+<body>
+
+<div class="sideNav">
+	<p class="menuHead">Menu</p>
+</div>
+
+<div>
+	<ul class="navlist">
+		<li class="nlist active"><a href="file:///C:/Users/joelc_000/Desktop/Joel's%20Website/Business2.0.html"><i class="fa fa-home"></i>  Home</a></li>
+		<li class="nlist"><a href="file:///C:/Users/joelc_000/Desktop/Joel's%20Website/Business2.0News.html"><i class="fa fa-newspaper-o"></i>  News</a></li>
+		<li class="nlist"><a href="file:///C:/Users/joelc_000/Desktop/Joel's%20Website/Business2.0About.html"><i class="fa fa-info"></i>  About</a></li>
+		<li class="nlist"><a href="file:///C:/Users/joelc_000/Desktop/Joel's%20Website/Business2.0Contact.html"><i class="fa fa-envelope"></i>  Contact</a></li>
+	</ul>
+</div>
+
+
+
+<div class="top">
+	<h1 class="head">Home</h1>
+</div>
+
+<div>
+	<article>
+		<p class="newPost">My Brother and I!</p>
+		<img class="tagPhoto" src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/18813949_1368176059903059_
+		5481177253538782107_n.jpg?oh=9f256a7a5f07803b27a7af76a5ce0f59&oe=5A0927FF" />
+	</article>
+</div>
+
+<div>
+	<article>
+		<p class="newPost">Hello World!</p>
+	</article>
+</div><div>
+	<article>
+		<p class="newPost">Hello World!</p>
+	</article>
+</div>
+
+
+
+
+</body>
+</html>
