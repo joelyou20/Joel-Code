@@ -43,12 +43,12 @@ def main():
             with open(filename[1:], 'r') as f:  
                 outputdata = f.read()
                 #Send one HTTP header line into socket
-                c.send(b'HTTP/1.0 200 OK\r\n'.encode())
+                c.send(b'HTTP/1.0 200 OK\r\n\r\n'.encode())
                 
                 c.send(outputdata.encode())
                 c.send("\r\n".encode())
         except (OSError, IOError) as e:
-                c.send(b'HTTP/1.0 404 Not Found\r\n'.encode())
+                c.send(b'HTTP/1.0 404 Not Found\r\n\r\n'.encode())
     # Close the connection with the client
     print('Closing connection with the client')
     c.close()
