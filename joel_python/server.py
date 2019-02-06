@@ -34,7 +34,7 @@ def main():
 
         # Establish connection with client.
         c, addr = serverSocket.accept()
-        ip = get_ip_address(serverSocket, 'enp0s31f6')
+        ip = get_ip_address(serverSocket, 'h1-eth0')
         print 'Got connection from', addr
 
         message = c.recv(10000)
