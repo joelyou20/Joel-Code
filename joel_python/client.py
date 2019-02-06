@@ -10,7 +10,7 @@ def main():
 
     clientSocket.connect((addr, port))
     while(True):
-        clientSocket.sendall("GET /{} HTTP/1.1".format(htmlFile))
+        clientSocket.sendall("GET /{} HTTP/1.1\r\n\r\n".format(htmlFile))
         
         data = clientSocket.recv(100000)
 
